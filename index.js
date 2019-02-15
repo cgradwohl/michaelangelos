@@ -5,7 +5,7 @@ const app = {};
 
 app.init = function() {
 
-    // Start MicroServices
+    // Start MicroServices - TODO perhaps these should be indpendant :)
     services.init();
    
     // Start API Gateway
